@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-buttons slot="start">
+    <ion-back-button *ngIf="backButton" [defaultHref]="backButton" ></ion-back-button>
+    <ion-buttons *ngIf="isModal">
+      <ion-button>
+        <ion-icon name="close-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-buttons>
+  <ion-toolbar>
+    <ion-title>
+      <div class="app-name">Avatar AI for Dc Dev</div>
+      <strong>{{title}}</strong>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
