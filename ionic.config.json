@@ -1,0 +1,7 @@
+{
+  "name": "avatar-ai-dc-dev",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
